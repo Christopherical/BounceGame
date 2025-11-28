@@ -1,7 +1,7 @@
 To Build and run project:
 
 cmake -B Build -D CMAKE_BUILD_TYPE=Debug
-cmake --build Build --config Debug -j   
+cmake --build Build --config Debug -j
 
 On Windows:
-.\Build\Debug\BounceGame.exe         
+.\Build\Debug\BounceGame.exe
