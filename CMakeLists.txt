@@ -7,4 +7,4 @@ FetchContent_MakeAvailable(sfml)
 
 add_executable (BounceGame Main.cpp Application.cpp)
 target_compile_features(BounceGame PRIVATE cxx_std_20)
-target_link_libraries(BounceGame PRIVATE SFML::Graphics)
+target_link_libraries(BounceGame PRIVATE SFML::Graphics SFML::Audio)
